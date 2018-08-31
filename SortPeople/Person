@@ -133,3 +133,19 @@ public int compareTo(Person other) {
                     return 0;
 
        }
+       
+            public static void main(String str[]) {
+
+             Person p1 = new Person("Ana", "Ivanova", "Ulitsa1", 27);
+
+             Person p2 = new Person("Ana", "Ivanova", "Ulitsa2", 29);
+
+             System.out.println(p1.equals(p2));
+
+             System.out.println(p1.compareTo(p2));
+
+       }
+
+ 
+
+}
